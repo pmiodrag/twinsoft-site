@@ -1,0 +1,68 @@
+<div class="col-md-12">
+    <md-grid-list  cols="1" rowHeight="200px">     
+        <md-grid-tile  id="custom-div" [colspan]="1" [rowspan]="2" > 
+            <div *ngFor="let companyInfo  of company">
+                <div class="page_title" *ngIf="(companyPage | async)  == page.Intro || (companyPage | async)  == page.About">{{ companyInfo.name }} </div>                           
+                <div [@visibilityChanged]="(companyPage | async)  == page.Intro">
+                    <a  class="profile-spot no-border" (click)="changeComapanyPage(page.About)">
+                        <img  src="{{companyInfo.photo}}" class="img" />
+                    </a>
+                    <div class="title">{{ companyInfo.moto }} </div>     
+                </div>
+                <div class="top_section" [@visibilityChanged]="(companyPage | async)  == page.About" (click)="changeComapanyPage(page.Intro)">
+                     <a  class="profile-spot middle no-border" >
+                        <img  src="{{companyInfo.photo}}" class="img" />
+                    </a>
+                    <p class="company_info">{{companyInfo.description}}</p>
+                </div>
+                <p class="page_title" *ngIf="(companyPage | async)  == page.Projects" >Demo products </p>
+                <div class="top_section"  [@visibilityChanged]="(companyPage | async)  == page.Projects"  >                   
+                         
+<!--                    <p class="company_info">{{companyInfo.projects}}</p>-->
+                    <p class="company_info">{{companyInfo.demo}}</p>
+                </div>
+                 <p class="page_title" *ngIf="(companyPage | async)  == page.Contact" >Contact us @</p>
+                <div class="top_section" [@visibilityChanged]="(companyPage | async)  == page.Contact" >
+                    <div class="col-md-12">
+                        <div class="badge">
+                            <i class="material-icons">email</i> <p>{{companyInfo.email}}</p>
+                        </div>
+                    </div>
+                    <!--                   <div class="badge">
+                                            <a href="http://twitter.com/twinsoft" target="_blank"><md-icon svgIcon="twitter"></md-icon></a>
+                                       </div>-->
+                </div>
+                  <p class="page_title" *ngIf="(companyPage | async)  == page.Info">Technical information</p>
+                <div class="top_section"  [@visibilityChanged]="(companyPage | async)  == page.Info"  >                   
+                    <div class="col-md-12 company_info">
+                    <p class="col-md-12">{{companyInfo.site_version}}</p>
+                    <p class="col-md-12">{{companyInfo.site_developers}}</p>
+                    <p class="col-md-12">{{companyInfo.site_info}}</p>
+                    </div>
+                </div>
+                <md-grid-tile-footer class="blue_bg"> 
+                    <div class="col-md-2">
+                        <button md-mini-fab  class="black_bg" [ngClass]="{'white_active': (companyPage | async)  == page.About || (companyPage | async)  == page.Intro}" (click)="changeComapanyPage(page.About)">
+                                <i class="material-icons">person_pin</i>                            
+                        </button> 
+                    </div>
+                    <div class="col-md-2">
+                        <button md-mini-fab class="black_bg" [ngClass]="{'white_active': (companyPage | async)  == page.Projects}" (click)="changeComapanyPage(page.Projects)">
+                                <i class="material-icons">work</i>                            
+                        </button> 
+                    </div> 
+                    <div class="col-md-2">
+                        <button md-mini-fab  class="black_bg" [ngClass]="{'white_active': (companyPage | async)  == page.Contact}" (click)="changeComapanyPage(page.Contact)">
+                                <i class="material-icons">contact_mail</i>                            
+                        </button> 
+                    </div>
+                    <div class="col-md-2">
+                        <button md-mini-fab  class="black_bg" [ngClass]="{'white_active': (companyPage | async)  == page.Info}" (click)="changeComapanyPage(page.Info)">
+                                <i class="material-icons">info_outline</i>                           
+                        </button> 
+                    </div>
+                </md-grid-tile-footer>
+            </div>
+        </md-grid-tile>
+    </md-grid-list>
+</div>
