@@ -1,0 +1,106 @@
+.team_info {
+    margin: 40px auto;
+    z-index: 6;
+    /*    color: #4A4949;*/
+    letter-spacing: 1px;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 5px 15px;
+    border-radius: 20px;
+    /*background: #fff;*/
+    line-height: 1;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: middle;
+    text-shadow: 0 1px 0px rgba(255, 255, 255, 0.1);
+    color: rgb(33, 121, 181);
+    border: 1px solid rgb(33, 121, 181);
+    background-color: rgba(255, 255, 255, 0.8) !important;
+}
+.title {    
+    /* width: 90%; */
+    height: 20px;
+    z-index: 6;
+    /* color: #E6EE9C;*/
+    text-transform: uppercase;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 3px;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 5px 15px;
+    border-radius: 20px;
+    /* background: rgb(33, 121, 181); */
+    color: rgb(33, 121, 181);
+    border: 1px solid rgb(33, 121, 181);
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    line-height: 1;
+    cursor: pointer;
+    text-shadow: 0 1px 0px rgba(255, 255, 255, 0.1);
+}
+.top_section {
+    position:absolute;
+    top:20%;
+    left:10%;
+    right: 10%;
+}
+.page_title {
+    position: absolute;
+    top: 30px;
+    left: 10%;
+    z-index: 6;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 5px 15px;
+    border-radius: 20px;
+    /*background: #E6EE9C;*/ 
+    color: rgb(33, 121, 181);
+    border: 1px solid rgb(33, 121, 181);
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    line-height: 1;
+    cursor: pointer;
+    text-shadow: 0 1px 0px rgba(255, 255, 255, 0.1);
+}
+
+a {
+    color: #F38B72;
+    text-decoration: none;
+}
+a:hover {
+    color: #ea360b;
+    text-decoration: none;
+}
+
+/*.skill {
+    background: rgba(255, 255, 255, 1) !important;
+} 
+.db {
+    background: rgba(255, 255, 255, 0.9) !important;
+}
+.framework {
+    background: rgba(255, 255, 255, 0.8) !important;
+} 
+.design {
+    background: rgba(255, 255, 255, 0.7) !important;
+} 
+.protocol {
+    background: rgba(255, 255, 255, 0.6) !important;
+} 
+.paradigm {
+    background: rgba(255, 255, 255, 0.5) !important;
+} 
+.build {
+    background: rgba(255, 255, 255, 0.4) !important;
+} 
+.ide {
+    background: rgba(255, 255, 255, 0.3) !important;
+} 
+.server {
+    background: rgba(255, 255, 255, 0.2) !important;
+} 
+.os {
+    background: rgba(191, 191, 63, 0.1) !important;
+     background: rgba(255, 255, 255, 0.1) !important;
+} */
