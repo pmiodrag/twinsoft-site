@@ -3,7 +3,7 @@
         "name": "We are Twinsoft",
         "moto": "Creative development is our path",
         "description": " Twinsoft is IT agency founded 2013 by Miodrag Pavkovic. Together with his twin brother Miroslav they make basis of the company. Nowdays Twinsoft is providing different programming services to variety of clients following trends and using latest technologies. Our goal is to help your needs and to be creative, efficient and get the job done. Always ready for new challenges,  We are open minded, flexible and among all we enjoy the work we do.", 
-        "photo": "/assets/images/twins.jpg",
+        "photo": "twinsoft-site/assets/images/twins.jpg",
         "email": "twinsoft@twinsoft.me",
         "projects": "We had been working on startup project for Dutch company Yachtcloud which succesfully released product was our biggest achivement and on one of mobile application for Hungarian McDonalds. Currently we are exploring Angular2 magic and building health portal.",
         "demo": "Demo projects will be published in near future.",
