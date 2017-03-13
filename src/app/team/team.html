@@ -78,19 +78,19 @@
 </div>
 <md-grid-tile-footer class="blue_bg">
     <div class="col-md-2">
-        <button md-mini-fab class="black_bg" [ngClass]="{'white_active': (personId == person.id && ((teamPage | async)  == page.Personal  || (teamPage | async)  == page.About )) 
+        <button md-mini-fab class="black_bg blue" [ngClass]="{'white_active': (personId == person.id && ((teamPage | async)  == page.Personal  || (teamPage | async)  == page.About )) 
                 || (personId != person.id && (person.page == page.Personal || person.page == null || person.page == About ))}" (click)="changeTeamPage(page.Personal, person)">
                 <i class="material-icons">person_pin</i>                            
         </button> 
     </div>
     <div class="col-md-2">
-        <button md-mini-fab class="black_bg" [ngClass]="{'white_active':  (personId == person.id && (teamPage | async)  == page.Skills ) 
+        <button md-mini-fab class="black_bg blue" [ngClass]="{'white_active':  (personId == person.id && (teamPage | async)  == page.Skills ) 
                 || (personId != person.id && person.page == page.Skills )}" (click)="changeTeamPage(page.Skills, person)">
                 <i class="material-icons">school</i>                            
         </button> 
     </div>
     <div class="col-md-2">
-        <button md-mini-fab class="black_bg" [ngClass]="{'white_active': (personId == person.id && (teamPage | async)  == page.Contact) 
+        <button md-mini-fab class="black_bg blue" [ngClass]="{'white_active': (personId == person.id && (teamPage | async)  == page.Contact) 
                 || (personId != person.id && person.page == page.Contact )}" (click)="changeTeamPage(page.Contact, person)">
                 <i class="material-icons">contact_mail</i>                            
         </button> 
