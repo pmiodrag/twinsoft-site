@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-Oct-2016, 14:02:11
+    Author     : miodrag
+*/
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 65px;
+    /*padding: 20px;*/ 
+}
+.container-fluid:before, .container-fluid:after {
+    content: " ";
+    display: table; 
+}
+.container-fluid:after {
+    clear: both; 
+}
+.footer_text {
+    margin: 20px auto;
+    width: 20%;
+    z-index: 6;
+    /*  color: rgb(33, 121, 181);*/
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 5px 15px;
+    border-radius: 20px;
+    /*background: #E6EE9C;*/
+    color: rgb(33, 121, 181);
+    border: 1px solid rgb(33, 121, 181);
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    line-height: 1;
+    cursor: pointer;
+    text-shadow: 0 1px 0px rgba(255, 255, 255, 0.1);
+}

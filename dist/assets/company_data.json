@@ -1,0 +1,14 @@
+[
+    {
+        "name": "We are Twinsoft",
+        "moto": "Creative development is our path",
+        "description": " Twinsoft is IT agency founded 2013 by Miodrag Pavkovic. Together with his twin brother Miroslav they make basis of the company. Nowdays Twinsoft is providing different programming services to variety of clients following trends and using latest technologies. Our goal is to help your needs and to be creative, efficient and get the job done. Always ready for new challenges,  We are open minded, flexible and among all we enjoy the work we do.", 
+        "photo": "assets/images/twins.jpg",
+        "email": "twinsoft@twinsoft.me",
+        "projects": "We had been working on startup project for Dutch company Yachtcloud which succesfully released product was our biggest achivement and on one of mobile application for Hungarian McDonalds. Currently we are exploring Angular2 magic and building health portal.",
+        "demo": "Demo projects will be published in near future.",
+        "site_version": "Twinsoft Version 1.0",
+        "site_developers": "Developers: Miodrag && Miroslav Pavkovic",
+        "site_info": "This site is SPA made in Angular2. We are fan of material design and here angular2 material is used along with material icons to represent the GUI. Build tool is angular-cli with Webpack2 Build system on top. Rxjs is part of external libraries responsible for emitting and observing changes. Node version is 4.4.6 and npm 3.10.2"
+    }
+]
